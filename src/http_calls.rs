@@ -6,7 +6,7 @@ pub mod http_calls
 	use serde::{Serialize, Deserialize};
 
     // Put your server address and port here
-	const SERVER_ADDRESS : &str = "192.168.100.53";
+	const SERVER_ADDRESS : &str = "localhost";
 	const SERVER_PORT : &str = "3000";
 
 	#[derive(Serialize, Deserialize, Debug)]
