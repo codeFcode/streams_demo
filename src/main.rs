@@ -14,14 +14,12 @@ fn main() {
 	println!("------------------------- Welcome in the Iota streams client demo! --------------------------");
 	println!("---------------------------------------------------------------------------------------------");
 	let mut finished = false;
-	let mut value : u32;
 	let mut buffer = String::new();
 	let stdin = io::stdin();
 	let mut ok;
 	let mut trimmed;
 	let mut state;
 	let mut data : http_calls::http_calls::Data = http_calls::http_calls::Data::default();
-  let mut certificate_number : u32;
   let mut partner_code;
 
 	while !finished {
